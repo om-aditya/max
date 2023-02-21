@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Nova+Square&family=Roboto&family=Varela+Round&display=swap');
+
+.container{
+  background-color: #000123;
+  display: flex;
+}
+.logo{
+  margin-left:1%; 
+  margin-top: 0.5%;
+  height: 100%;
+  width:20%;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 8%;
+  position: fixed;
+}
+
+.link{
+  margin: 2vw 0px 0px 50vw;
+}
+.navlink{
+  color:#ff0f7b;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size:larger;
+  font-weight: bold;
+}
+.products{
+  margin-right: 5vw;
+}
+.maindiv{
+  height: 100vh;
+  width: 100vw;
+}
+.centerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0% 0% 0%;
+    height:50%;
+}
+.linktext{
+  text-decoration: none;
+}
+.buttondiv{ 
+  height: 45px;
+  width:200px;
+  color:white;
+  display: flex;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #ff0f7b;
+  border-radius: 25px;
+}
+.buttontext{
+  display: inline;
+  margin:10px 0px 0px 20px;
+}
+.icon{  
+  color:black;    
+  margin:5px 0px 0px 48px;
+  padding: 5px 0px 0px 5px;
+  background-color: white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+}
+.heading{
+  font-family: 'Aldrich', sans-serif;
+  color:#ff0f7b;
+  height: 15%;
+  text-align: center;
+}
+.para{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-size:18px;
+  height: 10%;
+  margin-top: 1%;
+}
+.label{
+  color:#ff0f7b;
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  font-size:18px;
+  height: 10%;
+  margin-top: 1%;
+}
+.input{
+  height: 25%;
+  width:20%;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 1%;
+}
+.or{
+  text-align: center;
+  color:#ff0f7b;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 100; 
+  height: 5%;
+}
+.hr{
+  margin:auto;
+  background-color:#ab9c9c;
+  width:40%;
+  height: 3px;
+}
+.social{
+  display: flex;
+  color:white;
+  height: 20%;  
+  margin-top: 1%;
+  justify-content: center;
+}
+.para2{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-size:18px;
+  margin-right: 10px; 
+  margin-top: 3px;
+}
+.para3{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-size:18px;
+  height: 20%;
+}
+.social_icons{
+  color:white;
+  font-size: 25px;
+  margin-right:10px;
+}
+
+.social_icons_discord{
+  background-color: white;
+  border-radius: 5px;
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+}
+
+.hr2{
+  margin:auto;
+  background-color:#ab9c9c;
+  width:40%;
+  height:3px;
+}
+
+.centerdiv2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10% 0% 5% 0%;
+  height:50%;
+}
+
+.input2{
+  height: 20%;
+  width:20%;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 1%;
+}
+
+.icon2{  
+  color:black;    
+  margin:5px 0px 0px 62px;
+  padding: 5px 0px 0px 5px;
+  background-color: white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+}
+
+.color{
+  color: #ff0f7b;
+}
+.resendotp{
+  font-family: 'Aldrich', sans-serif;
+  text-align: center;
+  height: 20%;
+  color:#5dadec;
+}
+.bottomdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 100;
+  font-size:65px;
+  height: 30%;
+  width:100%;
+  margin: 20% 0% 3% 0%;
+}
+
+
+
+.leftdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customerlink{
+    color:#ff0f7b;
+    text-decoration: none;
+}
+
+.links{
+    margin-top:28%; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.otherlink{
+    text-decoration: none;
+    color:white;
+    font-family: 'Aldrich', sans-serif;
+    font-size: large;
+}
+
+.rightdiv{
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    margin: 75% 0% 0% 30%;
+    width: 100%;
+    height: 25%;
+    color:white;
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+}
+.weblink{
+    margin: 10% 0% 0% 30%;
+    color:#ff0f7b;
+    font-family: 'Aldrich', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    height: 10%;
+}
+
+
+
+
+
+.social_icons_youtube{
+    font-size: 55px;
+    margin-right:20px;
+}

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Nova+Square&family=Roboto&family=Varela+Round&display=swap');
+
+.container{
+  background-image: url("../public/assets/maxpay-background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.logo{
+  margin-left:1%; 
+  margin-top: 0.5%;
+  height: 100%;
+  width:20%;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 8%;
+  position: fixed;
+}
+
+.link{
+  margin: 2vw 0px 0px 50vw;
+}
+.navlink{
+  color:#ff0f7b;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size:larger;
+  font-weight: bold;
+}
+.products{
+  margin-right: 5vw;
+}
+
+.heading{
+  font-family: 'Varela Round', sans-serif;
+}
+
+.content{
+  font-family: 'Aldrich', sans-serif;
+  font-size:80px;
+}
+.headingdiv{
+  height: 450px;
+}
+.centerdiv{
+  color:white;
+  height: 80vh;
+  width: 90vw;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding-top: 3%;
+}
+.linktext{
+  text-decoration: none;
+}
+.buttondiv{ 
+  height: 45px;
+  width:200px;
+  color:white;
+  display: flex;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #ff0f7b;
+  border-radius: 25px;
+}
+.buttontext{
+  display: inline;
+  margin:10px 0px 0px 20px;
+}
+.icon{  
+  color:black;    
+  margin:5px 0px 0px 20px;
+  padding: 5px 0px 0px 5px;
+  background-color: white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+}
+
+.container2{
+  background-color: #000123;
+  display: flex;
+}
+.leftdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+}
+.rightdiv{
+  color: #ff0f7b;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.img1{
+  height: 75%;
+  width: 60%;
+}
+.content2{
+  margin-top: 5%;
+  font-family: 'Aldrich', sans-serif;
+  font-size:45px;
+} 
+.headingdiv2{
+  margin-top: 12%;
+}
+.para{
+  color:white;
+  margin-top: 5%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 22px;
+}
+
+.icon2{
+  color:black;    
+  margin:5px 0px 0px 28px;
+  padding: 5px 0px 0px 5px;
+  background-color: white;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Contact Section CSS - Container 3 */
+
+.container3{
+  background-image: url("../public/assets/contact-background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.maindiv{
+  display: flex;
+  /* height: 100vh; */
+  width: 95vw;
+}
+.content3{
+text-align: center;
+color:white;
+font-family: 'Aldrich', sans-serif;
+font-weight: 100;
+font-size:65px;
+height: 30%;
+width:100%;
+margin: 20% 0% 3% 0%;
+}
+
+.para3{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-size:18px;
+  height: 10%;
+}
+
+.leftdiv3{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.customerlink{
+  color:#ff0f7b;
+  text-decoration: none;
+}
+
+.links3{
+  margin-top:28%; 
+  display: flex;
+  justify-content: space-evenly;
+}
+.otherlink{
+  text-decoration: none;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: large;
+}
+
+.rightdiv3{
+  display: flex;
+  flex-direction: column;
+}
+.address{
+  margin: 75% 0% 0% 30%;
+  width: 100%;
+  height: 25%;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+}
+.weblink{
+  margin: 10% 0% 0% 30%;
+  color:#ff0f7b;
+  font-family: 'Aldrich', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  height: 10%;
+}
+
+.social{
+  display: flex;
+  color:white;
+  height: 20%;
+  margin-left: 30%;
+}
+
+.social_icons{
+  font-size: 48px;
+  margin-right:20px;
+}
+
+.social_icons_youtube{
+  font-size: 55px;
+  margin-right:20px;
+}

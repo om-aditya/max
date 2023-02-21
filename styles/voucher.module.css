@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Nova+Square&family=Roboto&family=Varela+Round&display=swap');
+
+.container{
+  background-color: #000;
+  display: flex;
+}
+.logo{
+  margin-left:1%; 
+  margin-top: 0.5%;
+  height: 100%;
+  width:20%;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 8%;
+  position: fixed;
+}
+
+.link{
+  margin: 2vw 0px 0px 50vw;
+}
+.navlink{
+  color:#ff0f7b;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size:larger;
+  font-weight: bold;
+}
+.products{
+  margin-right: 5vw;
+}
+.maindiv{
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+.linktext{
+    text-decoration: none;
+}
+.buttondiv{ 
+height: 45px;
+width:200px;
+color:white;
+display: flex;
+font-family: 'Aldrich', sans-serif;
+font-size: 20px;
+font-weight: 100;
+background-color: #ff0f7b;
+border-radius: 25px;
+}
+.buttontext{
+display: inline;
+margin:10px 0px 0px 20px;
+}
+.icon{  
+color:black;    
+margin:5px 0px 0px 38px;
+padding: 5px 0px 0px 5px;
+background-color: white;
+border-radius: 100px;
+height: 30px;
+width: 30px;
+}
+.check{
+    height: 80%;
+    margin: 2% ;
+}
+.leftdiv{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 5% 0% 0% 8%;
+    height: 80%;
+}
+.topdiv{
+    display: flex;
+    height: 40%;
+}
+.topsidediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.bottomdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.steam{
+    height: 100%;
+}
+.shortdiv{
+    display: flex;
+    background-color: white;
+    height: 14%;
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+.shortpara{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 12px;
+    margin-top: 4%;
+    font-weight:600;
+}
+.checkguide{
+    font-family: 'Aldrich', sans-serif;
+    color : #5dadec;
+    font-size: 12px;
+    height: 10%;
+}
+.color{
+    color: #ff0f7b;
+}
+.heading{
+    color:#ff0f7b;
+    height: 10%;
+    margin-top: 5%;
+    font-family: 'Aldrich', sans-serif; 
+    font-weight: 100;
+}
+.bottompara{
+    margin-top: 5%;
+    color:white;
+    font-family: 'Aldrich', sans-serif; 
+    font-size: 15px;
+    width: 80%;
+}
+.rightheading{
+    color:#ff0f7b;
+    height: 10%;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif; 
+    font-weight: 100;
+}
+.firstrightheading{
+    color:#ff0f7b;
+    height: 7%;
+    font-size: 30px;
+    font-family: 'Aldrich', sans-serif; 
+    font-weight: 100;
+}
+.boxdiv{
+    display: flex;
+    height: 4.5%;
+    margin-bottom: 5%;
+}
+.div{
+    width: 15%;
+    color:#ff0f7b;
+    background-color: white;
+    margin-right: 2%;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Aldrich', sans-serif; 
+    text-align: center;
+    padding-top: 5px;
+}
+.divcolor{
+    width: 15%;
+    color:white;
+    background-color: #ff0f7b;
+    margin-right: 2%;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Aldrich', sans-serif; 
+    text-align: center;
+    padding-top: 5px;
+}
+.firstdivcolor{
+    width: 15%;
+    color:white;
+    background-color: #ff0f7b;
+    margin-top: 5%;
+    margin-right: 2%;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: 'Aldrich', sans-serif; 
+    text-align: center;
+    padding-top: 5px;
+}
+.rightdiv{
+    margin-top: 4%;
+    width: 45%;
+    height: 80%;
+}
+.input{
+    height: 6%;
+    width: 20%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-family: 'Aldrich', sans-serif; 
+    text-align: center;
+    font-size: large;
+}
+.divimg{
+    height: 90%;
+}
+.recommenddiv{
+    display: flex;
+    flex-direction: column  ;
+}
