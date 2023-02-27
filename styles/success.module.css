@@ -137,5 +137,8 @@
     font-size: 20px;
     height: 20%;
   }
-
+  .check{
+    color:white;
+    font-size: 200px;
+}
 }
