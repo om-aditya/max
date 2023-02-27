@@ -4,6 +4,7 @@
   background-image: url("../public/assets/maxpay-background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  width:100%;
 }
 .logo{
   margin-left:1%; 
@@ -42,7 +43,7 @@
   font-size:80px;
 }
 .headingdiv{
-  height: 450px;
+  height: 80%;
 }
 .centerdiv{
   color:white;
@@ -222,4 +223,118 @@ margin: 20% 0% 3% 0%;
 .social_icons_youtube{
   font-size: 55px;
   margin-right:20px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container{
+    background-image: url("../public/assets/maxpay-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 600px;
+    height:60vh;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    height: 3%;
+    position: fixed;
+  }
+  .logo{
+    margin-left:2%; 
+    margin-top: 1%;
+    height: 100%;
+    width:35%;
+  }
+  .img{
+    height: 100%;
+    width: 100%;
+  }
+  .link{
+    margin: 1% 0px 0px 15%;
+  }
+  .navlink{
+    color:#ff0f7b;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size:100%;
+    font-weight: bold;
+  }
+  .products{
+    margin-right: 5%;
+  }
+
+  
+.content{
+  font-family: 'Aldrich', sans-serif;
+  font-size:50px;
+}
+.headingdiv{
+  height: 55%;
+}
+.centerdiv{
+  color:white;
+  height: 80%;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container2{
+  background-color: #000123;
+  display: flex;
+  width: 600px;
+    height:60vh;
+}
+.content2{
+  margin-top: 5%;
+  font-family: 'Aldrich', sans-serif;
+  font-size:30px;
+} 
+.para{
+  color:white;
+  margin-top: 5%;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+}
+.container3{
+  background-image: url("../public/assets/contact-background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 600px;
+  height:60vh;
+}
+.content3{
+  text-align: center;
+  color:white;
+  font-family: 'Aldrich', sans-serif;
+  font-weight: 100;
+  font-size:40px;
+  height: 30%;
+  width:100%;
+  margin: 30% 0% 3% 0%;
+  }
+  
+  .para3{
+    text-align: center;
+    color:white;
+    font-family: 'Aldrich', sans-serif;
+    font-size:15px;
+    height: 10%;
+  }
+
+  .leftdiv3{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .links3{
+    margin-top:28%; 
+    display: flex;
+    flex-direction: column;
+    height:100px;
+  }
 }

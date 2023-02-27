@@ -117,4 +117,11 @@
     width: 100vw;
     margin-top: 10vh;
   }
+  .para{
+    text-align: center;
+    color:#ff0f7b;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 50px;
+    height: 40%;
+}
 }

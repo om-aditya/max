@@ -1,3 +1,6 @@
+import react, {useState} from 'react';
+import GetOtp from './getOtp.jsx';
+
 import Box from '@mui/material/Box';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -5,9 +8,12 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import styles from '@/styles/Home.module.css';
+
 export default function Home() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
+    {showModal && <GetOtp closeModal={setShowModal}/>}
     {/* First Part of Landing Page */}
     <div className={styles.container}>
       {/* Navbar Start */}
@@ -17,7 +23,7 @@ export default function Home() {
         </div>
         <div className={styles.link}>
         <a href="#" className={`${styles.products} ${styles.navlink}`}>Products</a>
-        <a href="#" className={styles.navlink}>Login/Register</a>
+        <a href="#" className={styles.navlink} onClick={(e) => setShowModal(true)}>Login/Register</a>
         </div>
       </div>
       {/* Navbar End */}
@@ -28,7 +34,7 @@ export default function Home() {
           <span className={styles.content}>Game night ?<br />Get your<br />Stream codes<br />now !</span>
           <br />
           {/* Shop Now button */}
-          <a href="#" className={styles.linktext}>
+          <a href="#" className={styles.linktext} onClick={() => setShowModal(true)}>
             <div className={styles.buttondiv}>
             <p className={styles.buttontext}>SHOP NOW</p> <span className={styles.icon}><Box><ArrowForwardIcon /></Box></span>
             </div>
